@@ -1,0 +1,36 @@
+<% provide(:title, "Edit #{resource_name.to_s.humanize}") %>
+<h1>Edit <%= resource_name.to_s.humanize %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put, role: 'form' }) do |f| %>
+      <%= devise_error_messages! %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+
+      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+      Currently waiting confirmation for: <%= resource.unconfirmed_email %>
+      <% end %>
+
+      <p>Leave these fields blank if you don't want to change your password.</p>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, autocomplete: "off" %>
+
+      <%= f.label :password_confirmation %>
+      <%= f.password_field :password_confirmation, autocomplete: "off" %>
+
+      <p>You must enter your current password to make changes.</p>
+
+      <%= f.label :current_password %>
+      <%= f.password_field :current_password, autocomplete: "off" %>
+
+      <%= f.submit "Update", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+    <h3>Cancel my account</h3>
+    <p>Unhappy? We'll be sad to see you go.</p>
+    <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: 'Are you sure?' }, method: :delete, class: 'btn btn-large btn-primary' %>
+  </div>
+</div>
