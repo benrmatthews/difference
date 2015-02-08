@@ -12,11 +12,13 @@ The starter application was developed using Rails 4.2, and Ruby 2.2.0. I make no
 
 1.0.0
 
-## Installation
+## Installation and use
 
 1. Clone it (`git clone https://github.com/professornim/starter-app`)
 2. Bundle it (`bundle install`)
 3. Run migration (`rake db:migrate`)
+4. Develop your application
+5. Deploy - if using Heroku, a Procfile is included which will tell Heroku to use Passenger as the web server rather than Webrick
 
 ### Notes
 
