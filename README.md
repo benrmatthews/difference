@@ -1,4 +1,4 @@
-[Ruby on Rails Starter Application Screenshot](http://i.imgur.com/XotNBxzl.png)
+![Ruby on Rails Starter Application Screenshot](http://i.imgur.com/XotNBxzl.png "Ruby on Rails Starter Application Screenshot")
 
 # Starter Application
 
