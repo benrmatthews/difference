@@ -1,3 +1,5 @@
+[Ruby on Rails Starter Application Screenshot](http://i.imgur.com/XotNBxzl.png)
+
 # Starter Application
 
 Starter Application is a Ruby on Rails 4.2 template to use as a base for your new Rails applications. Ideally suitable for deployment on Heroku, but may be used elsewhere.
