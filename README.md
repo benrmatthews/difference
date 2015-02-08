@@ -51,7 +51,7 @@ Starter Application adds a number of gems to the default Rails gems to hit the g
 
 ## Issues
 
-If you encounter any issues, please try to first fix it yourself, and then propose a new pull request (see Contributing). If you have tried to solve the issue on your own, but are still need of assistance, seek out help from Stack Overflow. If all else fails, open a new issue. While I will make every effort to integrate pull requests, I make no promises that I'll actively check the issues.
+If you encounter any issues, please try to first fix it yourself, and then propose a new pull request (see Contributing). If you have tried to solve the issue on your own, but are still in need of assistance, seek out help from Stack Overflow. If all else fails, open a new issue. While I will make every effort to integrate pull requests, I make no promises that I'll actively check the issues.
 
 ## Todo's
 
