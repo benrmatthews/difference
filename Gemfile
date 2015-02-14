@@ -22,6 +22,7 @@ gem 'high_voltage', '2.2.1'
 gem 'bootstrap-sass', '3.3.3'
 gem 'autoprefixer-rails', '5.1.5'
 gem 'devise', '3.4.1'
+gem 'figaro'
 
 group :development do
   gem 'better_errors', '2.1.1'

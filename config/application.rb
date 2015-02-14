@@ -32,7 +32,7 @@ module StarterApp
     config.active_record.raise_in_transactional_callbacks = true
 
     # Default Application Settings
-    config.application_name = "Starter Application"
-    config.application_creator = "Application Author"
+    config.application_name = "Vosho"
+    config.application_creator = "Vosho"
   end
 end
