@@ -92,4 +92,17 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = false
   
+  # Configuring Amazon S3 for Paperclip file uploads
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_permissions => :private,
+    :s3_protocol => 'https',
+    :s3_host_name => 's3-eu-west-1.amazonaws.com',
+    :path => ":filename"
+    :s3_credentials => {
+      :bucket => ENV['AWS_BUCKET'],
+      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+    }
+  }
 end
