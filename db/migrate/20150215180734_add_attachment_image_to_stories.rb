@@ -1,6 +1,8 @@
 class AddAttachmentImageToStories < ActiveRecord::Migration
   def self.up
-    add_attachment :stories, :image
+    change_table :stories do |t|
+      t.attachment :image
+    end
   end
 
   def self.down

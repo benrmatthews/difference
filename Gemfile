@@ -24,8 +24,8 @@ gem 'autoprefixer-rails', '5.1.5'
 gem 'devise', '3.4.1'
 gem 'figaro'
 gem 'heroku'
-gem 'paperclip'
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk' # S3 API
+gem 'paperclip', "~> 4.2"
 
 group :development do
   gem 'better_errors', '2.1.1'
