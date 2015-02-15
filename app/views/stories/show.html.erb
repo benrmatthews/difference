@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image</strong>
+  <%= image_tag @story.image.url(:medium) %>
+  <strong>Description:</strong>
+  <%= @story.description %>
+</p>
+<%= link_to 'Edit', edit_story_path(@story) %> |
+<%= link_to 'Back', stories_path %>
