@@ -98,12 +98,11 @@ Rails.application.configure do
     :s3_permissions => :private,
     :s3_protocol => 'https',
     :s3_host_name => 's3-eu-west-1.amazonaws.com',
-    :path => ":filename"
+    :path => ":filename",
     :s3_credentials => {
       :bucket => ENV['AWS_BUCKET'],
       :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
-  
-  end
+  }
 end
