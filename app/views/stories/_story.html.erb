@@ -1,0 +1,18 @@
+<div class="box">
+  <%= link_to (image_tag story.image(:medium)), story %>
+  <p class="description">
+    <%= story.description %> 
+  </p>
+  
+  <p>
+    <strong>
+      Posted by <%= link_to story.user %>
+    </strong>
+  </p>
+    <% if current_user == story.user %>
+  <p>
+    <%= link_to 'Edit', edit_story_path(story) %>
+    <%= link_to 'Destroy', story, method: :delete, data: { confirm: 'Are you sure?' } %>
+  </p>
+  <% end %>
+</div>
