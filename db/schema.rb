@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150215180734) do
+ActiveRecord::Schema.define(version: 20150215205843) do
 
   create_table "stories", force: :cascade do |t|
     t.text     "description"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20150215180734) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.string   "image_remote_url"
   end
 
   add_index "stories", ["user_id"], name: "index_stories_on_user_id"

@@ -7,9 +7,6 @@ $navbarBackground: white;
 $btnPrimaryBackground: green;
 
 @import 'bootstrap';
-body {
-	padding-top: 60px;
-}
 
 .navbar-inner {
 	@include box-shadow(none !important);
