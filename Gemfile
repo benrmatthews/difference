@@ -26,6 +26,9 @@ gem 'figaro'
 gem 'heroku'
 gem 'aws-sdk' # S3 API
 gem 'paperclip', "~> 4.2"
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development do
   gem 'better_errors', '2.1.1'

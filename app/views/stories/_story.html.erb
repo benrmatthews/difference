@@ -6,7 +6,7 @@
   
   <p>
     <strong>
-      Posted by <%= link_to story.user %>
+      Posted by <%= link_to story.user.name, story.user %>
     </strong>
   </p>
     <% if current_user == story.user %>

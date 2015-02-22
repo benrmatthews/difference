@@ -5,7 +5,7 @@ class StoriesController < ApplicationController
   # GET /stories
   # GET /stories.json
   def index
-    @stories = Story.all
+    @stories = Story.order("created_at").page(params[:page]).per_page(23)
   end
 
   # GET /stories/1

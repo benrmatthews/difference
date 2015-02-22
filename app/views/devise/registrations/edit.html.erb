@@ -7,6 +7,9 @@
       <%= devise_error_messages! %>
 
       <%= f.label :email %>
+      <%= f.input :name %>
+    
+      <%= f.label :email %>
       <%= f.email_field :email %>
 
       <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
