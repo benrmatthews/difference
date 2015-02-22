@@ -29,6 +29,7 @@ gem 'paperclip', "~> 4.2"
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'cancancan', '~> 1.10'
 
 group :development do
   gem 'better_errors', '2.1.1'
