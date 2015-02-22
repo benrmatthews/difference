@@ -1,7 +1,53 @@
 <div class="center jumbotron">
-  <h1>VISUAL VOLUNTEERING</h1>
+  <div class="container">
 
-  <h2>Use <%= link_to Rails.application.config.application_name, root_path %> to show the world the difference you make</h2><br>
+  <h1>Show the world<br>the <%= link_to Rails.application.config.application_name, root_path %> you make</h1><br>
 
-  <%= link_to "Sign up now!", new_user_registration_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to "Start Your Story", new_user_registration_path, class: "btn btn-lg btn-primary" %>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="container">
+    <h2>Featured Stories</h2>
+    <p align="center">Bringing you the freshest daily servings of social good.</p>
+    <div class="col-md-12">
+      <div class="col-md-4">Story 1</div>
+      <div class="col-md-4">Story 2</div>
+      <div class="col-md-4">Story 3</div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="container">
+    <h2>Browse by Category</h2>
+    <div class="col-md-12">
+      <div class="btn-group-vertical col-md-3" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Category 1</button>
+        <button type="button" class="btn btn-default">Category 2</button>
+        <button type="button" class="btn btn-default">Category 3</button>
+        <button type="button" class="btn btn-default">Category 4</button>
+      </div>
+      <div class="btn-group-vertical col-md-3" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Category 5</button>
+        <button type="button" class="btn btn-default">Category 6</button>
+        <button type="button" class="btn btn-default">Category 7</button>
+        <button type="button" class="btn btn-default">Category 8</button>
+      </div>
+      <div class="btn-group-vertical col-md-3" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Category 9</button>
+        <button type="button" class="btn btn-default">Category 10</button>
+        <button type="button" class="btn btn-default">Category 11</button>
+        <button type="button" class="btn btn-default">Category 12</button>
+      </div>
+      <div class="btn-group-vertical col-md-3" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Category 13</button>
+        <button type="button" class="btn btn-default">Category 14</button>
+        <button type="button" class="btn btn-default">Category 15</button>
+        <button type="button" class="btn btn-default">Category 16</button>
+      </div>
+    </div>
+  </div>
 </div>

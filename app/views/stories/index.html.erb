@@ -1,5 +1,7 @@
-<div id="stories">
-  <%= render @stories %>
+<div class="container">
+  <div id="stories">
+    <%= render @stories %>
+  </div>
+  <br>
+  <%= will_paginate @stories %>
 </div>
-<br>
-<%= will_paginate @stories %>

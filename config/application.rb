@@ -32,7 +32,7 @@ module StarterApp
     config.active_record.raise_in_transactional_callbacks = true
 
     # Default Application Settings
-    config.application_name = "Vosho"
-    config.application_creator = "Vosho"
+    config.application_name = "difference"
+    config.application_creator = "montfort"
   end
 end

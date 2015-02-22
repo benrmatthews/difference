@@ -1,7 +1,9 @@
-<h1><%= @user.name %></h1>
+<div class="container">
+  <h1><%= @user.name %></h1>
  
 <div id="stories">
   <%= render @stories %>
 </div>
  
 <%= will_paginate @stories %>
+</div>
