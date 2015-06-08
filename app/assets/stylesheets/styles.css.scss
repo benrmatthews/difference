@@ -8,16 +8,12 @@ $btnPrimaryBackground: green;
 
 @import 'bootstrap';
 
-.navbar-inner {
-  @include box-shadow(none !important);
-  border: 0;
-}
 
 .footer {
   margin-top: 100px;
-  color: $gray;
+  color: #aaa;
   a {
-    color: $gray;
+    color: #aaa;
   }
 }
 

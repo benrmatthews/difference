@@ -250,3 +250,6 @@ DEPENDENCIES
   turbolinks (= 2.5.3)
   uglifier (= 2.7.0)
   will_paginate
+
+BUNDLED WITH
+   1.10.3
